@@ -1,0 +1,17 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sap/hana-client": "^2.4.191",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
