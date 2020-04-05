@@ -2,13 +2,12 @@
 
 ## How to use
 
-git clone <REPO NAME>
+git clone https://github.com/shwetasrivastava/node.js-hana-client.git
 
 npm start
 
 ## Connection to HANA DB from node.js
 
-''''
 Mention the connection params in configs => dbConnection.js
 
 Add the respective value in .env file.
