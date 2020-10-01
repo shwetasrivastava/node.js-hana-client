@@ -1,1 +1,7 @@
 node_modules
+.env
+
+/**
+pls add a folder for env , with the keys for database connection present in config.
+
+*/

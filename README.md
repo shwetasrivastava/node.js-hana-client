@@ -20,12 +20,12 @@ connection.connect(connectionParams, (err) => {
         console.error("Connection error",err);
     }
     else{
-        console.log("Established successfully");
+        console.log("connection to DB established successfully");
     }
 
 });
 
-use the connection object anywhere within the project to fetch the result set
+use the connection object anywhere within the project to fetch the result set from the required table.
 
 global.connection = connection;
 
@@ -49,3 +49,6 @@ commit, rollback and setAutocommit functions defined already.
 For more details please visit to offical @sap/hana-client page:-
 
 https://help.sap.com/viewer/0eec0d68141541d1b07893a39944924e/2.0.02/en-US/58c18548dab04a438a0f9c44be82b6cd.html
+
+If you want to use an ORM for node with hana use the below npm package:-
+https://www.npmjs.com/package/ohana-node-orm
